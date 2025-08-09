@@ -1,0 +1,33 @@
+{
+  "name": "SustainIndia - Save the Planet, Level Up Your Country",
+  "short_name": "SustainIndia",
+  "description": "A nationwide sustainability challenge platform for India that merges AI-powered smart agriculture, carbon footprint tracking, and competitive leaderboards into one engaging experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#22c55e",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMyMmM1NWUiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CjxwYXRoIGQ9Ik0xMSAyMGEyIDIgMCAwIDEtMi0ydi0xYTIgMiAwIDAgMS0yLTJWOGEyIDIgMCAwIDEgMi0yaDJhMiAyIDAgMCAxIDIgMmMwIDEuMTEuODkgMiAyIDJoNGEyIDIgMCAwIDEgMiAydjh6Ii8+CjxwYXRoIGQ9Im00IDEwIDMuNzUtNi4zOEEyIDIgMCAwIDEgOS40OSAySDExIi8+CjxwYXRoIGQ9Ik0xNCAxNGgxIi8+CjxwYXRoIGQ9Im0yMSAxNS0zLTMgMy0zIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMyMmM1NWUiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgo8cGF0aCBkPSJNMTEgMjBhMiAyIDAgMCAxLTItMnYtMWEyIDIgMCAwIDEtMi0yVjhhMiAyIDAgMCAxIDItMmgyYTIgMiAwIDAgMSAyIDJjMCAxLjExLjg5IDIgMiAyaDRhMiAyIDAgMCAxIDIgMnY4eiIvPgo8cGF0aCBkPSJtNCAxMCAzLjc1LTYuMzhBMiAyIDAgMCAxIDkuNDkgMkgxMSIvPgo8cGF0aCBkPSJNMTQgMTRoMSIvPgo8cGF0aCBkPSJtMjEgMTUtMy0zIDMtMyIvPgo8L3N2Zz4KPC9zdmc+Cg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "education"],
+  "lang": "en",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjU2OCIgdmlld0JveD0iMCAwIDMyMCA1NjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iNTY4IiBmaWxsPSIjZjBmZGY0Ii8+CjxyZWN0IHg9IjIwIiB5PSI0MCIgd2lkdGg9IjI4MCIgaGVpZ2h0PSI0OCIgcng9IjgiIGZpbGw9IiMyMmM1NWUiLz4KPHN2ZyB4PSIzMCIgeT0iNTAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPgo8cGF0aCBkPSJNMTEgMjBhMiAyIDAgMCAxLTItMnYtMWEyIDIgMCAwIDEtMi0yVjhhMiAyIDAgMCAxIDItMmgyYTIgMiAwIDAgMSAyIDJjMCAxLjExLjg5IDIgMiAyaDRhMiAyIDAgMCAxIDIgMnY4eiIvPgo8L3N2Zz4KPHR4dCB4PSI2MCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+U3VzdGFpbkluZGlhPC90eHQ+CjxyZWN0IHg9IjIwIiB5PSIxMDAiIHdpZHRoPSIyODAiIGhlaWdodD0iMTIwIiByeD0iMTIiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOCIvPgo8dGV4dCB4PSIxNjAiIHk9IjE0MCIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMmM1NWUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkVjb01ldGVyPC90ZXh0Pgo8Y2lyY2xlIGN4PSIxNjAiIGN5PSIxODAiIHI9IjMwIiBzdHJva2U9IiMyMmM1NWUiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIvPgo8Y2lyY2xlIGN4PSIxNjAiIGN5PSIxODAiIHI9IjMwIiBzdHJva2U9IiMyMmM1NWUiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWRhc2hhcnJheT0iMTUwIDUwIiB0cmFuc2Zvcm09InJvdGF0ZSgtOTAgMTYwIDE4MCkiLz4KPC9zdmc+",
+      "sizes": "320x568",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}

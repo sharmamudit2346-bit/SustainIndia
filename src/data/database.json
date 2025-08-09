@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "avatar": "👩‍🌾",
+      "location": "Maharashtra",
+      "level": 12,
+      "xp": 2840,
+      "ecoPoints": 15680,
+      "carbonFootprint": 2.4,
+      "waterSaved": 1250,
+      "treesPlanted": 12,
+      "streak": 15,
+      "joinedAt": "2024-01-15T00:00:00Z",
+      "lastActive": "2024-01-25T10:30:00Z",
+      "badges": ["1", "2", "3"],
+      "achievements": [
+        {
+          "id": "1",
+          "title": "Green Commuter",
+          "description": "Use public transport 30 days",
+          "progress": 22,
+          "target": 30,
+          "reward": 500,
+          "completed": false
+        },
+        {
+          "id": "2",
+          "title": "Plastic Free",
+          "description": "Avoid plastic for 7 days",
+          "progress": 7,
+          "target": 7,
+          "reward": 300,
+          "completed": true
+        }
+      ],
+      "preferences": {
+        "theme": "light",
+        "notifications": true,
+        "language": "en"
+      }
+    },
+    {
+      "id": "user2",
+      "name": "Raj Kumar",
+      "email": "raj.kumar@email.com",
+      "avatar": "👨‍💼",
+      "location": "Punjab",
+      "level": 10,
+      "xp": 2380,
+      "ecoPoints": 12450,
+      "carbonFootprint": 3.1,
+      "waterSaved": 980,
+      "treesPlanted": 8,
+      "streak": 12,
+      "joinedAt": "2024-01-10T00:00:00Z",
+      "lastActive": "2024-01-25T09:15:00Z",
+      "badges": ["1", "3"],
+      "achievements": []
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge1",
+      "title": "Water Warrior Month",
+      "description": "Collectively save 20 million liters of water across India",
+      "type": "water",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "target": 20000000,
+      "progress": 15234567,
+      "participants": 145670,
+      "reward": 1000,
+      "status": "active",
+      "rules": [
+        "Log daily water-saving activities",
+        "Share tips with community",
+        "Maintain consistent participation"
+      ],
+      "prizes": [
+        {
+          "rank": 1,
+          "reward": "₹10,000 + Solar Panel Consultation",
+          "description": "Top water saver"
+        },
+        {
+          "rank": "2-10",
+          "reward": "₹2,000 EcoStore Voucher",
+          "description": "Top 10 participants"
+        }
+      ]
+    },
+    {
+      "id": "challenge2", 
+      "title": "Carbon Neutral February",
+      "description": "Reduce carbon footprint by 50,000 tonnes nationwide",
+      "type": "carbon",
+      "startDate": "2024-02-01",
+      "endDate": "2024-02-29",
+      "target": 50000,
+      "progress": 0,
+      "participants": 89234,
+      "reward": 1500,
+      "status": "upcoming"
+    }
+  ],
+  "leaderboard": {
+    "states": [
+      {
+        "state": "Maharashtra",
+        "code": "MH",
+        "rank": 1,
+        "ecoPoints": 2456780,
+        "carbonReduced": 45600,
+        "waterSaved": 1245000,
+        "treesPlanted": 23400,
+        "population": 112374333,
+        "participationRate": 68.5,
+        "topCities": ["Mumbai", "Pune", "Nagpur"],
+        "achievements": ["Water Conservation Leader", "Carbon Reduction Champion"]
+      },
+      {
+        "state": "Tamil Nadu",
+        "code": "TN", 
+        "rank": 2,
+        "ecoPoints": 2234560,
+        "carbonReduced": 42300,
+        "waterSaved": 1156000,
+        "treesPlanted": 21800,
+        "population": 72147030,
+        "participationRate": 71.2,
+        "topCities": ["Chennai", "Coimbatore", "Madurai"],
+        "achievements": ["Solar Energy Pioneer"]
+      }
+    ],
+    "lastUpdated": "2024-01-25T12:00:00Z"
+  },
+  "missions": [
+    {
+      "id": "mission1",
+      "title": "Use Public Transport",
+      "description": "Take bus/metro instead of private vehicle",
+      "points": 50,
+      "icon": "🚌",
+      "category": "transport",
+      "difficulty": "easy",
+      "estimatedTime": "varies",
+      "tips": ["Check local bus schedules", "Use metro apps for real-time updates"]
+    },
+    {
+      "id": "mission2",
+      "title": "Plastic-Free Shopping", 
+      "description": "Shop without using plastic bags",
+      "points": 30,
+      "icon": "🛍️",
+      "category": "waste",
+      "difficulty": "easy",
+      "estimatedTime": "30 minutes",
+      "tips": ["Carry reusable bags", "Choose products with minimal packaging"]
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge1",
+      "name": "Water Warrior",
+      "description": "Saved 1000L of water",
+      "icon": "💧",
+      "rarity": "rare",
+      "requirements": {
+        "waterSaved": 1000
+      },
+      "unlockedBy": 15670,
+      "category": "conservation"
+    },
+    {
+      "id": "badge2",
+      "name": "Carbon Crusher",
+      "description": "Reduced 100kg CO₂",
+      "icon": "🌱", 
+      "rarity": "epic",
+      "requirements": {
+        "carbonReduced": 100
+      },
+      "unlockedBy": 8450,
+      "category": "carbon"
+    }
+  ],
+  "perks": [
+    {
+      "id": "perk1",
+      "title": "20% Off Organic Groceries",
+      "description": "Get 20% discount on organic fruits, vegetables, and groceries",
+      "pointsCost": 500,
+      "category": "discount",
+      "brand": "EcoMart",
+      "validTill": "2024-12-31",
+      "termsAndConditions": ["Valid on orders above ₹500", "Cannot be combined with other offers"],
+      "redemptionCount": 2340,
+      "maxRedemptions": 5000,
+      "available": true
+    }
+  ],
+  "analytics": {
+    "national": {
+      "totalUsers": 1234567,
+      "activeUsers": 567890,
+      "totalEcoPoints": 45678901234,
+      "waterSaved": 45234567,
+      "carbonReduced": 234567,
+      "treesPlanted": 567890,
+      "challengesCompleted": 156,
+      "badgesAwarded": 234567,
+      "weeklyGrowth": 12.5,
+      "monthlyGrowth": 45.2
+    },
+    "trends": {
+      "daily": [
+        {"date": "2024-01-20", "users": 45000, "ecoPoints": 234000, "activities": 89000},
+        {"date": "2024-01-21", "users": 47000, "ecoPoints": 245000, "activities": 92000},
+        {"date": "2024-01-22", "users": 49000, "ecoPoints": 256000, "activities": 95000},
+        {"date": "2024-01-23", "users": 52000, "ecoPoints": 267000, "activities": 98000},
+        {"date": "2024-01-24", "users": 54000, "ecoPoints": 278000, "activities": 101000},
+        {"date": "2024-01-25", "users": 56000, "ecoPoints": 289000, "activities": 104000}
+      ]
+    }
+  },
+  "notifications": [
+    {
+      "id": "notif1",
+      "userId": "user1",
+      "type": "achievement",
+      "title": "Badge Unlocked!",
+      "message": "Congratulations! You earned the Water Warrior badge",
+      "icon": "🏆",
+      "timestamp": "2024-01-25T09:00:00Z",
+      "read": false,
+      "priority": "high",
+      "actionUrl": "/rewards"
+    },
+    {
+      "id": "notif2", 
+      "userId": "user1",
+      "type": "mission",
+      "title": "Daily Mission Available",
+      "message": "Use public transport today and earn 50 EcoPoints",
+      "icon": "🚌",
+      "timestamp": "2024-01-25T06:00:00Z", 
+      "read": false,
+      "priority": "normal",
+      "actionUrl": "/eco-meter"
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip1",
+      "title": "LED Bulb Benefits",
+      "content": "Switching to LED bulbs can reduce energy consumption by up to 80% and last 25 times longer than traditional bulbs.",
+      "category": "energy",
+      "impact": "high",
+      "difficulty": "easy",
+      "savings": "₹500-1000 annually"
+    },
+    {
+      "id": "tip2",
+      "title": "Water-Saving Shower Tips", 
+      "content": "Taking shorter showers (5 minutes instead of 10) can save up to 25 gallons of water per shower.",
+      "category": "water",
+      "impact": "medium", 
+      "difficulty": "easy",
+      "savings": "25 gallons per shower"
+    }
+  ],
+  "cropRecommendations": [
+    {
+      "id": "crop1",
+      "crop": "Rice",
+      "region": "Punjab", 
+      "soilType": "Alluvial",
+      "season": "Kharif",
+      "waterRequirement": 1200,
+      "nutrientRequirement": {
+        "nitrogen": 120,
+        "phosphorus": 60,
+        "potassium": 40
+      },
+      "expectedYield": 4.5,
+      "sustainability": 75,
+      "recommendations": [
+        "Use drip irrigation to save 30% water",
+        "Apply organic fertilizers to improve soil health", 
+        "Implement System of Rice Intensification (SRI)",
+        "Monitor soil moisture using IoT sensors"
+      ],
+      "weatherRequirements": {
+        "temperature": "20-35°C",
+        "rainfall": "100-150mm",
+        "humidity": "60-80%"
+      },
+      "profitability": {
+        "costPerHectare": 45000,
+        "revenuePerHectare": 85000,
+        "profit": 40000
+      }
+    }
+  ],
+  "settings": {
+    "app": {
+      "version": "1.0.0",
+      "maintenance": false,
+      "featuresEnabled": {
+        "challenges": true,
+        "rewards": true,
+        "notifications": true,
+        "analytics": true
+      }
+    },
+    "content": {
+      "heroQuotes": [
+        "The Earth does not belong to us; we belong to the Earth. - Chief Seattle",
+        "What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves. - Mahatma Gandhi",
+        "Be the change you wish to see in the world. - Mahatma Gandhi"
+      ],
+      "sustainabilityFacts": [
+        "A single tree can absorb 48 pounds of CO₂ per year",
+        "Recycling one aluminum can saves enough energy to power a TV for 3 hours",
+        "Using a reusable water bottle can prevent 1,460 plastic bottles per year"
+      ]
+    }
+  }
+}

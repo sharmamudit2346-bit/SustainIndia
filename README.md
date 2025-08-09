@@ -2,7 +2,7 @@
 
 A visually stunning, gamified web application that merges AI-powered smart agriculture, carbon footprint tracking, and competitive leaderboards into one engaging sustainability platform for India.
 
-![SustainIndia Banner](https://via.placeholder.com/1200x400/22c55e/ffffff?text=SustainIndia+-+Nationwide+Sustainability+Challenge)
+![SustainIndia Banner](https://i.ibb.co/xtHvBGP6/sustainaility-banner.png)
 
 ## 🎯 Overview
 
@@ -85,7 +85,7 @@ SustainIndia is a comprehensive sustainability platform designed to engage milli
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sharmamudit2346-bit/SustainIndia.git
    cd sustain-india
    ```
 
@@ -230,3 +230,4 @@ This is a demo project created for a hackathon. For production deployment, consi
 **Built with ❤️ for a sustainable India 🇮🇳**
 
 *"Be the change you wish to see in the world" - Mahatma Gandhi*
+
